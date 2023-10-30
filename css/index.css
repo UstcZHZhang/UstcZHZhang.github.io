@@ -1,0 +1,96 @@
+#module {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 10px 0 40px 0;
+  border-top: 2px solid #cbcbcb;
+}
+
+#module h2 {
+  margin: 0;
+  padding: 0 0 30px 0;
+  color: #000;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+#module .content {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.news {
+  float: left;
+  width: 231px;
+  height: 360px;
+  padding: 0 16px;
+  border-left: 1px solid #eeeeee;
+  overflow-y: hidden;
+}
+
+.news-first {
+  padding-left: 0;
+  border: 0;
+}
+
+.news-last {
+  padding-right: 0;
+}
+
+.news h3 {
+  margin: 0;
+  padding: 5px 0 4px 0;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.news .spec {
+  display: block;
+  font-size: 12px;
+  margin: 0 14px 0 0;
+}
+.news .spec .origin {
+  margin: 0 0.5em 0 0;
+  padding: 0.5em 0.5em 0.25em 0.5em;
+  background: #b70d21;
+  color: #fff;
+  font-style: normal;
+}
+
+.journal {
+  display: flex;
+  width: 330px;
+  padding: 0 0 0 16px;
+}
+
+.journal img {
+  width: 120px;
+}
+
+.journal .text {
+  max-width: calc(100% - 140px);
+  overflow-wrap: break-word;
+  padding-top: 0px;
+  margin-left: 10px;
+}
+
+.paper {
+  display: flex;
+  width: 350px;
+  border-left: 1px solid #eeeeee;
+  padding: 0 16px;
+}
+
+.paper img {
+  width: 130px;
+}
+
+.paper .text {
+  max-width: calc(100% - 150px);
+  overflow-wrap: break-word;
+  padding-top: 0px;
+  margin-left: 10px;
+}
