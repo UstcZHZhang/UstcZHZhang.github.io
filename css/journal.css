@@ -1,0 +1,142 @@
+#issn {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 10px 0 0px 0;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+#issn .journal-name {
+  text-align: left;
+  flex-grow: 1;
+}
+
+#issn .journal-issn {
+  text-align: right;
+  flex-grow: 1;
+}
+
+#module {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 10px 0 40px 0;
+  border-top: 2px solid #cbcbcb;
+}
+
+#module h2 {
+  margin: 0;
+  padding: 0 0 30px 0;
+  color: #000;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+#module h3 {
+  color: #333;
+  line-height: 1.5;
+  font-family: /* Verdana, */ Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin: 1em 0;
+  margin-top: 0em;
+  padding: 3px 8px 1px 0px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+}
+
+#module .content {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.journal-table {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  font-size: 17px;
+  font-family: Consolas, "Courier New", Courier, Monaco, monospace;
+}
+
+.journal-table thead tr {
+  background-color: #c7e0ff;
+}
+
+.journal-table thead th {
+  font-weight: normal;
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: 1px solid #ccc;
+  height: 33px;
+  text-align: center;
+  border-left: 1px dotted #c6c6c6;
+  border-right: 1px dotted #c6c6c6;
+  font-size: 13px;
+}
+
+.journal-table tbody td {
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: 1px solid #ccc;
+  height: 33px;
+  text-align: center;
+  border-left: 1px dotted #c6c6c6;
+  border-right: 1px dotted #c6c6c6;
+}
+
+.journal-table tbody td a:visited,
+a:visited:after,
+a:visited:before {
+  color: #35c;
+}
+
+.journal-table tbody td a:hover {
+  color: white;
+  background-color: #06d;
+}
+
+.journal-table tbody td a {
+  display: inline-block;
+  width: 300px;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.forms {
+  display: flex;
+  background-color: #2386cf;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  margin: 10 auto 20px auto;
+  width: 170px;
+  border-radius: 5px;
+}
+
+.forms a {
+  color: #fff;
+}
+
+.forms a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.forms img {
+  width: 18px;
+  height: 18px;
+}
