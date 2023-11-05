@@ -1,25 +1,3 @@
-#module {
-  width: 1024px;
-  margin: 0 auto;
-  padding: 10px 0 40px 0;
-  border-top: 2px solid #cbcbcb;
-}
-
-#module h2 {
-  margin: 0;
-  padding: 0 0 30px 0;
-  color: #000;
-  font-size: 32px;
-  font-weight: normal;
-  line-height: 1.2;
-}
-
-#module .content {
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-}
-
 .news {
   float: left;
   width: 231px;

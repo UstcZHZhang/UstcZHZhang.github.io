@@ -1,0 +1,52 @@
+.paper {
+  margin-bottom: 40px;
+}
+
+.paper-title {
+  color: #2c74ca;
+  font-weight: bold;
+}
+
+.author-name {
+  color: #2c74ca;
+}
+
+.btn {
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn .type {
+  margin-right: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 2px;
+  font-weight: bold;
+  background-color: #e8e8e8;
+}
+
+.btn .state {
+  display: flex;
+  align-items: center;
+  margin-right: 140px;
+}
+
+.btn .state img {
+  width: 16px;
+  height: 16px;
+}
+
+.btn .download {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.btn .download img {
+  width: 25px;
+  height: 25px;
+}
+
+.btn .download span {
+  text-decoration: underline;
+}
