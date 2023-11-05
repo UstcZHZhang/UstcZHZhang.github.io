@@ -11,6 +11,7 @@
 #issn .journal-name {
   text-align: left;
   flex-grow: 1;
+  max-width: 60%;
 }
 
 #issn .journal-issn {
@@ -66,7 +67,7 @@ a:visited:before {
 
 .journal-table tbody td a {
   display: inline-block;
-  width: 300px;
+  width: 100%;
   padding: 4px 8px;
   text-align: center;
   border-radius: 3px;
