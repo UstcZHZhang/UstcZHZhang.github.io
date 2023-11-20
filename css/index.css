@@ -1,7 +1,7 @@
 .news {
   float: left;
   width: 280px;
-  height: 300px;
+  height: 270px;
   padding: 0 16px;
   border-left: 1px solid #eeeeee;
   overflow-y: hidden;
@@ -79,12 +79,11 @@
 
 .paper .text {
   max-width: calc(100% - 150px);
-  overflow-wrap: break-word;
   padding-top: 0px;
   margin-left: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 10;
+  -webkit-line-clamp: 11;
   -webkit-box-orient: vertical;
 }
