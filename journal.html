@@ -1,34 +1,21 @@
 <!DOCTYPE >
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Script-type" content="text/javascript" />
-    <meta http-equiv="Content-Style-type" content="text/css" />
-
-    <link href="./images/logo.png" rel="icon" type="image/png" />
-    <link href="./favicon.ico" rel="shortcut icon" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./css/ddsmoothmenu.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/journal.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Japan-China Monte Carlo Method Society(JCMCMS)</title>
 
-    <style title="ddsmoothmenushadowsnone" type="text/css">
-      .ddsmoothmenushadowsnone {
-        display: none !important;
-      }
-    </style>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/base.css" />
+    <link rel="stylesheet" type="text/css" href="./css/commom.css" />
+    <link rel="stylesheet" type="text/css" href="./css/journal.css" />
   </head>
 
-  <body class="home EN ddcss3support">
-    <!-- Navigation -->
-    <div id="head">
-      <!-- logo   -->
+  <body>
+    <!-- header -->
+    <div class="header w">
       <div class="logo">
         <a href="./index.html">
           <img
@@ -38,14 +25,16 @@
         </a>
       </div>
 
-      <!-- nav -->
-      <div id="nav" class="ddsmoothmenu">
+      <div class="nav">
         <ul>
           <li>
             <a href="journal.html">JOURNAL</a>
           </li>
           <li>
-            <a href="#">MEETINGS &amp; EVENTS</a>
+            <a href="#">MEETINGS</a>
+          </li>
+          <li>
+            <a href="#">EVENTS</a>
           </li>
           <li>
             <a href="#">AWARDS</a>
@@ -61,17 +50,17 @@
     </div>
 
     <!-- Banner -->
-    <div id="banner">
+    <div class="banner w">
       <img
         src="./images/banner.png"
-        width="1024"
+        width="1100"
         height="240"
         alt="JCMCMS is dedicated to facilitating academic discussions related to the Monte Carlo method between Chinese and Japanese scientists and researchers."
       />
     </div>
 
     <!-- Issn  -->
-    <div id="issn">
+    <div class="issn w">
       <span class="journal-name"
         >Proceeding of Japan-China Joint Symposium on Computational Material
         Sciences and Monte Carlo Methods</span
@@ -80,88 +69,82 @@
     </div>
 
     <!-- Body  -->
-    <div id="body">
+    <div class="body w">
       <!-- intro  -->
-      <div id="module">
-        <h2>Journal Introduction</h2>
-        <div class="content">
-          <p>Here is a brief description of the journal.</p>
-        </div>
+      <h2>Journal Introduction</h2>
+      <div class="content">
+        <p>Here is a brief description of the journal.</p>
       </div>
 
       <!-- content  -->
-      <div id="module">
-        <h2>Jornal content</h2>
-        <div class="content">
-          <table class="journal-table">
-            <thead>
-              <tr>
-                <th>Vol., No. (Year)</th>
-                <th colspan="2">Titles</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Vol.1, No.2 (2022)</td>
-                <td>
-                  <a href="journal/papers-v1n2.html">
-                    Computational and Experimental Materials Science
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>Vol.1, No.1 (2022)</td>
-                <td>
-                  <a href="journal/papers-v1n1.html">
-                    Monte Carlo Methods in Computational Materials Science
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+
+      <h2>Jornal content</h2>
+      <div class="content">
+        <table class="journal-table">
+          <thead>
+            <tr>
+              <th>Vol., No. (Year)</th>
+              <th colspan="2">Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Vol.1, No.2 (2022)</td>
+              <td>
+                <a href="journal/papers-v1n2.html">
+                  Computational and Experimental Materials Science
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Vol.1, No.1 (2022)</td>
+              <td>
+                <a href="journal/papers-v1n1.html">
+                  Monte Carlo Methods in Computational Materials Science
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <!-- contribute  -->
-      <div id="module">
-        <h2>Contribute</h2>
-        <h3>Instructions to Authors</h3>
-        <p>
-          Welcome to [Journal Name], a platform dedicated to the dissemination
-          of innovative and impactful research. We are pleased that you are
-          considering submitting your work to our journal. To assist you in the
-          submission process and to ensure a smooth and efficient review, we
-          have compiled a comprehensive guide titled "Instructions to Authors."
-          This document provides detailed guidelines on manuscript preparation,
-          formatting, submission requirements, and the peer-review process. We
-          strongly encourage all prospective authors to read these instructions
-          carefully to adhere to our journal's standards, which will help
-          expedite the evaluation of your work. Thank you for your interest in
-          contributing to the scholarly conversation within our community.
-        </p>
-        <div class="forms">
-          <a href="#"> Download the forms </a>
-          <img src="./images/download.png" alt="download" />
-        </div>
-        <h3>Copyright Transfer Agreement</h3>
-        <p>
-          To finalize the publication process and facilitate the dissemination
-          of your work through [Journal Name], it is required that you sign and
-          return the enclosed Copyright Transfer Agreement. This document, along
-          with your manuscript submission, must be received for your work to be
-          considered for publication. Should your submission not be selected for
-          inclusion in the journal, the terms of this Agreement will become
-          void.
-        </p>
-        <div class="forms">
-          <a href="#"> Download the forms </a>
-          <img src="./images/download.png" alt="download" />
-        </div>
+      <h2>Contribute</h2>
+      <h3>Instructions to Authors</h3>
+      <p>
+        Welcome to [Journal Name], a platform dedicated to the dissemination of
+        innovative and impactful research. We are pleased that you are
+        considering submitting your work to our journal. To assist you in the
+        submission process and to ensure a smooth and efficient review, we have
+        compiled a comprehensive guide titled "Instructions to Authors." This
+        document provides detailed guidelines on manuscript preparation,
+        formatting, submission requirements, and the peer-review process. We
+        strongly encourage all prospective authors to read these instructions
+        carefully to adhere to our journal's standards, which will help expedite
+        the evaluation of your work. Thank you for your interest in contributing
+        to the scholarly conversation within our community.
+      </p>
+      <div class="forms">
+        <a href="#"> Download the forms </a>
+        <img src="./images/download.png" alt="download" />
+      </div>
+      <h3>Copyright Transfer Agreement</h3>
+      <p>
+        To finalize the publication process and facilitate the dissemination of
+        your work through [Journal Name], it is required that you sign and
+        return the enclosed Copyright Transfer Agreement. This document, along
+        with your manuscript submission, must be received for your work to be
+        considered for publication. Should your submission not be selected for
+        inclusion in the journal, the terms of this Agreement will become void.
+      </p>
+      <div class="forms">
+        <a href="#"> Download the forms </a>
+        <img src="./images/download.png" alt="download" />
       </div>
     </div>
 
     <!-- Footer  -->
-    <div id="footer">
+    <div class="footer w">
       <!-- left  -->
       <div class="copyright">
         copyright @ 2023-2024 Japan-China Monte Carlo Method Society. All Rights

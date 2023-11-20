@@ -1,5 +1,4 @@
-#issn {
-  width: 1024px;
+.issn {
   margin: 0 auto;
   padding: 10px 0 0px 0;
   font-size: 18px;
@@ -8,15 +7,35 @@
   justify-content: space-between;
 }
 
-#issn .journal-name {
+.issn .journal-name {
   text-align: left;
   flex-grow: 1;
   max-width: 60%;
 }
 
-#issn .journal-issn {
+.issn .journal-issn {
   text-align: right;
   flex-grow: 1;
+}
+
+h3 {
+  color: #333;
+  line-height: 1.5;
+  font-family: /* Verdana, */ Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin: 1em 0;
+  margin-top: 0em;
+  padding: 3px 8px 1px 0px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
 }
 
 .journal-table {

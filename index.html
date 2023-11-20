@@ -1,34 +1,21 @@
 <!DOCTYPE >
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Script-type" content="text/javascript" />
-    <meta http-equiv="Content-Style-type" content="text/css" />
-
-    <link href="./images/logo.png" rel="icon" type="image/png" />
-    <link href="./favicon.ico" rel="shortcut icon" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./css/ddsmoothmenu.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Japan-China Monte Carlo Method Society(JCMCMS)</title>
 
-    <style title="ddsmoothmenushadowsnone" type="text/css">
-      .ddsmoothmenushadowsnone {
-        display: none !important;
-      }
-    </style>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/base.css" />
+    <link rel="stylesheet" type="text/css" href="./css/commom.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
   </head>
 
-  <body class="home EN ddcss3support">
-    <!-- Navigation -->
-    <div id="head">
-      <!-- logo   -->
+  <body>
+    <!-- header -->
+    <div class="header w">
       <div class="logo">
         <a href="./index.html">
           <img
@@ -38,19 +25,16 @@
         </a>
       </div>
 
-      <!-- nav -->
-      <div id="nav" class="ddsmoothmenu">
+      <div class="nav">
         <ul>
           <li>
             <a href="journal.html">JOURNAL</a>
-            <div class="xiala">
-              <div class="xiala__item">选项1</div>
-              <div class="xiala__item">选项2</div>
-              <div class="xiala__item">选项3</div>
-            </div>
           </li>
           <li>
-            <a href="#">MEETINGS &amp; EVENTS</a>
+            <a href="#">MEETINGS</a>
+          </li>
+          <li>
+            <a href="#">EVENTS</a>
           </li>
           <li>
             <a href="#">AWARDS</a>
@@ -66,154 +50,184 @@
     </div>
 
     <!-- Banner -->
-    <div id="banner">
+    <div class="banner w">
       <img
         src="./images/banner.png"
-        width="1024"
+        width="1100"
         height="240"
         alt="JCMCMS is dedicated to facilitating academic discussions related to the Monte Carlo method between Chinese and Japanese scientists and researchers."
       />
     </div>
 
     <!-- Body  -->
-    <div id="body">
+    <div class="body w">
       <!-- news  -->
-      <div id="module">
-        <h2>News &amp; Activities Reports</h2>
-        <div class="content">
-          <div class="news news-first">
-            <p>
-              <span class="spec">
-                <span class="origin">News</span>
-                Dec. 2, 2022
-              </span>
-            </p>
-            <h3>
-              <a href="#">Shimizu Prize 2022 Winner</a>
-            </h3>
-            <a href="#">
-              <p>
-                Dr. Huimin Li has extended the Monte Carlo algorithm-based
-                electron-material interaction model to complex geometries,
-                making electron scattering simulations truly practical during
-                his graduate course at the Laboratory for Microstructure of
-                Solids, University of Science and Technology of China.
-              </p>
-            </a>
-          </div>
+      <h2>News &amp; Activities Reports</h2>
+      <div class="content">
+        <div class="news news-first">
+          <span class="spec">
+            <span class="origin">News</span>
+            Dec. 2, 2022
+          </span>
 
-          <div class="news">
+          <h4>
+            <a href="#">Shimizu Prize 2022 Winner</a>
+          </h4>
+          <a href="#" class="intro">
             <p>
-              <span class="spec">
-                <span class="origin">News</span>
-                Dec. 2, 2022
-              </span>
+              Dr. Huimin Li has extended the Monte Carlo algorithm-based
+              electron-material interaction model to complex geometries, making
+              electron scattering simulations truly practical during his
+              graduate course at the Laboratory for Microstructure of Solids,
+              University of Science and Technology of China. His work on
+              scanning electron microscopic imaging structural solids was one of
+              the most important cornerstones for the development of the
+              international standard “Microbeam analysis - Scanning electron
+              microscopy - Method for evaluating critical dimensions by CD-SEM”
+              (ISO 21466).
             </p>
-            <h3>
-              <a href="#">2022 STAM Young Scientist Award</a>
-            </h3>
-            <a href="#">
-              <p>
-                Xun Liu from the National Institute for Materials Science
-                (NIMS), Japan, Qirong Zheng from the Institute of Solid State
-                Physics, Chinese Academy of Sciences (HFIPS), and Jiamin Gong
-                from the University of Science and Technology of China (USTC)
-                were honored with STAM Young Scientist Awards.
-              </p>
-            </a>
-          </div>
+          </a>
+        </div>
 
-          <div class="news">
-            <p>
-              <span class="spec">
-                <span class="origin">News</span>
-                Dec. 2, 2022
-              </span>
-            </p>
-            <h3>
-              <a href="#">Ding Prize</a>
-            </h3>
-            <a href="#">
-              <p>
-                Senior Engineer Huimin Li of the Center for Supercomputing at
-                the USTC, Associate Professor Shifeng Mao of the School of
-                Nuclear Sciences at the USTC, Associate Professor Yanbo Zou of
-                the School of Physics and Electronic Engineering at XJNU, and
-                Researcher Yonggang Li of the HFIPS, Chinese Academy of
-                Sciences, were awarded the prize for their important role in the
-                development of the international standard ISO21466.
-              </p>
-            </a>
-          </div>
+        <div class="news">
+          <span class="spec">
+            <span class="origin">News</span>
+            Dec. 2, 2022
+          </span>
 
-          <div class="news news-last">
+          <h4>
+            <a href="#">STAM Young Scientist Award</a>
+          </h4>
+          <a href="#" class="intro">
             <p>
-              <span class="spec">
-                <span class="origin">News</span>
-                Dec. 1, 2022
-              </span>
+              Xun Liu from the National Institute for Materials Science (NIMS),
+              Japan, Qirong Zheng from the Institute of Solid State Physics,
+              Chinese Academy of Sciences (HFIPS), and Jiamin Gong from the
+              University of Science and Technology of China (USTC) were honored
+              with STAM Young Scientist Awards.
             </p>
-            <h3>
-              <a href="#">JCMC Joint Symposium 2022</a>
-            </h3>
-            <a href="#">
-              <p>
-                The China-Japan Joint Symposium on Computational Material
-                Sciences and Monte Carlo Methods 2022 was successfully held on
-                December 1-2, 2022 at the University of Science and Technology
-                of China University of Science and Technology of China (USTC)
-                and the National Institute for Materials Research (NIMR), Japan.
-              </p>
+          </a>
+        </div>
+
+        <div class="news">
+          <span class="spec">
+            <span class="origin">News</span>
+            Dec. 2, 2022
+          </span>
+
+          <h4>
+            <a href="#">Ding Prize</a>
+          </h4>
+          <a href="#" class="intro">
+            <p>
+              Senior Engineer Huimin Li of the Center for Supercomputing at the
+              University of Science and Technology of China, Associate Professor
+              Shifeng Mao of the School of Nuclear Sciences at the University of
+              Science and Technology of China, Associate Professor Yanbo Zou of
+              the School of Physics and Electronic Engineering at Xinjiang
+              Normal University, and Researcher Yonggang Li of the Institute of
+              Solid State Physics, Hefei Institute of Materials Science, Chinese
+              Academy of Sciences, were awarded the prize for their important
+              role in the development of the international standard ISO21466.
+            </p>
+          </a>
+        </div>
+
+        <div class="news news-last">
+          <span class="spec">
+            <span class="origin">News</span>
+            Dec. 1, 2022
+          </span>
+
+          <h4>
+            <a href="#">JCMC Joint Symposium 2022</a>
+          </h4>
+          <a href="#" class="intro">
+            <p>
+              The China-Japan Joint Symposium on Computational Material Sciences
+              and Monte Carlo Methods 2022 was successfully held on December
+              1-2, 2022 at the University of Science and Technology of China
+              University of Science and Technology of China (USTC) and the
+              National Institute for Materials Research (NIMR), Japan.
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <!-- journal  -->
+      <h2>Journal</h2>
+      <div class="content">
+        <div class="journal">
+          <a href="./journal/papers-v1n1.html">
+            <img src="./upload/JCMC-v1n1.png" alt="JCMC-Vol1-No1" />
+          </a>
+          <div class="text">
+            <a href="./journal/papers-v1n1.html">
+              Monte Carlo Methods in Electron Spectroscopy Analysis and Monte
+              Carlo Methods in Computational Materials Science
             </a>
           </div>
         </div>
-      </div>
-      <!-- journal  -->
-      <div id="module">
-        <h2>Journal</h2>
-
-        <div class="content">
-          <div class="journal">
-            <a href="./journal/papers-v1n1.html">
-              <img src="./upload/JCMC-v1n1.png" alt="JCMC-Vol1-No1" />
-            </a>
-            <div class="text">
-              <a href="./journal/papers-v1n1.html">
-                Monte Carlo Methods in Electron Spectroscopy Analysis and Monte
-                Carlo Methods in Computational Materials Science
-              </a>
-            </div>
+        <div class="paper">
+          <a href="./journal/pdfs/v1n1/paper_P000004.pdf">
+            <img src="./upload/v1n1-cover1.png" alt="paper" />
+          </a>
+          <div class="text">
+            <a href="./journal/pdfs/v1n1/paper_P000004.pdf"
+              >The fusion energy is the most promising way in the future due to
+              the abundant fuel source and low contamination to the environment.
+              The magnetic confined fusion is now the most possible way to
+              realize the controlled fusion reaction and the tokamak is now
+              considered as the best choice among the various magnetic confined
+              devices. One of the most critical issue for the future fusion
+              reactor is the huge heat load onto the divertor target, where the
+              heating power in the main plasma is exhausted. While the
+              traditional lower-single-null (LSN) divertor configuration is
+              adopted in the International Thermonuclear Experimental Reactor as
+              the heat exhaust solution, the ability may not sufficient for the
+              future fusion reactor with higher fusion power. To explore the
+              divertor solution for the critical heat exhaust issue, several
+              advanced divertor configuration is proposed by introducing
+              alternative magnetic configuration or optimizing the divertor
+              geometry [1-2]. Based on the parameter of China Fusion Engineering
+              Test Reactor, the snowflake divertor and long-legged divertor
+              [3-5] is studied by numerical simulation using SOLPS (scrape-off
+              layer plasma simulation) code. The effect on reducing the divertor
+              heat load is confirmed in the simulations, and the detailed
+              physical mechanism will be discussed in the conference. These
+              works provides a useful reference for the physical design of the
+              divertor in the future fusion reactor.</a
+            >
           </div>
-          <div class="paper">
-            <a href="./journal/pdfs/v1n1/paper_P000004.pdf">
-              <img src="./upload/v1n1-cover1.png" alt="paper" />
-            </a>
-            <div class="text">
-              <a href="./journal/pdfs/v1n1/paper_P000004.pdf"
-                >Iron is the primary element in the Earth’s core. The properties
-                of iron under extremely high pressure/temperature conditions are
-                fundamental ...</a
-              >
-            </div>
-          </div>
-          <div class="paper">
+        </div>
+        <div class="paper">
+          <a href="./journal/pdfs/v1n1/paper_P000013.pdf"
+            ><img src="./upload/v1n1-cover2.jpg" alt="paper"
+          /></a>
+          <div class="text">
             <a href="./journal/pdfs/v1n1/paper_P000013.pdf"
-              ><img src="./upload/v1n1-cover2.jpg" alt="paper"
-            /></a>
-            <div class="text">
-              <a href="./journal/pdfs/v1n1/paper_P000013.pdf"
-                >The parallel simulation technique of scanning electron
-                microscope imaging based on Monte Carlo, electron tracking
-                algorithm and geometric space construction ...</a
-              >
-            </div>
+              >The parallel simulation technique of scanning electron microscope
+              imaging based on Monte Carlo, electron tracking algorithm and
+              geometric space construction is of great value in studying the
+              properties of complex-shaped solids and semiconductor detection,
+              which helps to improve the design of scanning electron microscope
+              and understand the material material and structure corresponding
+              to its imaging, and helps to improve the accuracy of semiconductor
+              detection. Li Huimin started the numerical simulation of scanning
+              electron microscope imaging with complex aggregate structure
+              around 2003, and realized the massively parallelization, etc.,
+              which laid the foundation for the related research afterwards.
+              This paper reviews the background and history of this research and
+              the subsequent expansion of semiconductor linewidth detection
+              based on this research.</a
+            >
           </div>
         </div>
       </div>
     </div>
 
     <!-- Footer  -->
-    <div id="footer">
+    <div class="footer w">
       <!-- left  -->
       <div class="copyright">
         copyright @ 2023-2024 Japan-China Monte Carlo Method Society. All Rights

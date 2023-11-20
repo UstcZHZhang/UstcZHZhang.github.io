@@ -1,7 +1,7 @@
 .news {
   float: left;
-  width: 231px;
-  height: 360px;
+  width: 280px;
+  height: 300px;
   padding: 0 16px;
   border-left: 1px solid #eeeeee;
   overflow-y: hidden;
@@ -16,19 +16,10 @@
   padding-right: 0;
 }
 
-.news h3 {
-  margin: 0;
-  padding: 5px 0 4px 0;
-  border: 0;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.4;
-}
-
 .news .spec {
   display: block;
-  font-size: 12px;
   margin: 0 14px 0 0;
+  font-size: 12px;
 }
 .news .spec .origin {
   margin: 0 0.5em 0 0;
@@ -38,9 +29,29 @@
   font-style: normal;
 }
 
+.news h4 {
+  margin: 0;
+  padding: 10px 0 4px 0;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news .intro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+}
+
 .journal {
   display: flex;
-  width: 330px;
+  width: 280px;
   padding: 0 0 0 16px;
 }
 
@@ -57,13 +68,13 @@
 
 .paper {
   display: flex;
-  width: 350px;
+  width: 400px;
   border-left: 1px solid #eeeeee;
   padding: 0 16px;
 }
 
 .paper img {
-  width: 130px;
+  width: 150px;
 }
 
 .paper .text {
@@ -71,4 +82,9 @@
   overflow-wrap: break-word;
   padding-top: 0px;
   margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
 }
