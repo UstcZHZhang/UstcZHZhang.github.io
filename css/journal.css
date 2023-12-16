@@ -63,9 +63,10 @@ h3 {
   border-right: 1px dotted #c6c6c6;
 }
 
+.journal-table tbody td a,
 .journal-table tbody td a:visited,
-a:visited:after,
-a:visited:before {
+.journal-table tbody td a:visited:after,
+.journal-table tbody td a:visited:before {
   color: #35c;
 }
 

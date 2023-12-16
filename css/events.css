@@ -5,8 +5,18 @@
 .meeting .name {
   font-size: 22px;
   font-weight: bold;
-  color: #1b4182;
   margin-bottom: 10px;
+}
+
+.meeting .name a,
+.meeting .name a:visited,
+.meeting .name a:visited:after,
+.meeting .name a:visited:before {
+  color: #35c;
+}
+.meeting .name a:hover {
+  color: white;
+  background-color: #06d;
 }
 
 .meeting .information {
