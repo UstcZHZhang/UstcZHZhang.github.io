@@ -1,0 +1,35 @@
+.meeting {
+  margin: 0 0 40 30;
+}
+
+.meeting .name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1b4182;
+  margin-bottom: 10px;
+}
+
+.meeting .information {
+  height: 42px;
+  line-height: 40px;
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.meeting .first {
+  border-top: 2px solid #ccc;
+}
+
+.meeting .last {
+  border-bottom: 2px solid #ccc;
+}
+
+.meeting .information .left {
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+
+.meeting .information .right {
+  float: left;
+}
