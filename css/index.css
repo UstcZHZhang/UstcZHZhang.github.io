@@ -5,6 +5,7 @@
   padding: 0 16px;
   border-left: 1px solid #eeeeee;
   overflow-y: hidden;
+  font-size: 12px;
 }
 
 .news-first {
@@ -53,6 +54,7 @@
   display: flex;
   width: 280px;
   padding: 0 0 0 16px;
+  font-size: 12px;
 }
 
 .journal img {
@@ -71,6 +73,7 @@
   width: 400px;
   border-left: 1px solid #eeeeee;
   padding: 0 16px;
+  font-size: 12px;
 }
 
 .paper img {

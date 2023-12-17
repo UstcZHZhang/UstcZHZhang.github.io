@@ -1,0 +1,14 @@
+.us {
+  margin: 10px 0 0 15px;
+}
+
+.us h3 {
+  display: block;
+  color: #333;
+  line-height: 1.5;
+
+  font-weight: bold;
+  outline: 0;
+  padding: 3px 8px 5px 0px;
+  font-size: 16px;
+}
