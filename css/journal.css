@@ -13,6 +13,12 @@
   max-width: 60%;
 }
 
+.issn .journal-name .publisher {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
 .issn .journal-issn {
   text-align: right;
   flex-grow: 1;
