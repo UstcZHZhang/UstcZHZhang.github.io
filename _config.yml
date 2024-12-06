@@ -1,0 +1,35 @@
+title: "Zihang Zhang"
+author: "Zihang Zhang"
+description: "University of Science and Technology of China"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: false        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {title: "Blog", file: "blog.md"}
+  - {title: "CV", file: "CV.md"}
+  - {title: "Lab", url: "https://micro.ustc.edu.cn/chmain.html"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:zhzhang96@mail.ustc.edu.cn"}
+  - {title: Github, icon: github, url: "https://github.com/UstcZHZhang"}
+  - {title: Bilibili, icon: youtube, url: "https://space.bilibili.com/24990286"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
+
+markdown: kramdown
